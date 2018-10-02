@@ -13,6 +13,7 @@
 		90063475216310D5006FE04C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90063474216310D5006FE04C /* Assets.xcassets */; };
 		90063478216310D5006FE04C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90063476216310D5006FE04C /* LaunchScreen.storyboard */; };
 		9006348021631306006FE04C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9006347F21631306006FE04C /* LoginVC.swift */; };
+		90F8F8582163AC3200FC85E0 /* LoginCompleteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F8F8572163AC3200FC85E0 /* LoginCompleteDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		90063477216310D5006FE04C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90063479216310D5006FE04C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9006347F21631306006FE04C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		90F8F8572163AC3200FC85E0 /* LoginCompleteDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCompleteDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				9006346D216310D3006FE04C /* AppDelegate.swift */,
 				9006346F216310D3006FE04C /* HomeVC.swift */,
 				9006347F21631306006FE04C /* LoginVC.swift */,
+				90F8F8572163AC3200FC85E0 /* LoginCompleteDelegate.swift */,
 				90063471216310D3006FE04C /* Main.storyboard */,
 				90063474216310D5006FE04C /* Assets.xcassets */,
 				90063476216310D5006FE04C /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				90063470216310D3006FE04C /* HomeVC.swift in Sources */,
 				9006346E216310D3006FE04C /* AppDelegate.swift in Sources */,
 				9006348021631306006FE04C /* LoginVC.swift in Sources */,
+				90F8F8582163AC3200FC85E0 /* LoginCompleteDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

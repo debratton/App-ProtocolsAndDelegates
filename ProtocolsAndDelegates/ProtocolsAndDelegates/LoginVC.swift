@@ -10,6 +10,8 @@ import UIKit
 
 class LoginVC: UIViewController {
 
+    var delegate: LoginCompleteDelegate?
+    
     @IBOutlet weak var userNameEntryTxt: UITextField!
     
     
@@ -20,6 +22,7 @@ class LoginVC: UIViewController {
     }
 
     @IBAction func doneBtnPressed(_ sender: Any) {
+        delegate?.userCreated(name: userNameEntryTxt.text ?? "No Name Entered")
         dismiss(animated: true, completion: nil)
     }
     
